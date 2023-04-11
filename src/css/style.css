@@ -3,9 +3,29 @@ body, ul {
     padding: 0;
 }
 
-.file-container{
+.attaching_file{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_title {
+    font: normal 500 25px Helvetica;
+    margin-bottom: 0;
+}
+
+.file_attachment_button{
     width: 300px;
     height: 40px;
+    margin: 10px;
+    position: relative;
+}
+
+.field_dragging_file{
+    width: 500px;
+    height: 200px;
     margin: 10px;
     position: relative;
 }
@@ -17,7 +37,11 @@ body, ul {
     width: 100%;
 }
 
-.overlap{
+.overlap_text{
+    font: normal 400 15px Helvetica;
+}
+
+.overlap_button{
     position: absolute;
     left: 0; top: 0; right: 0; bottom: 0;
     width: 100%;
@@ -27,9 +51,33 @@ body, ul {
     line-height: 40px;
 }
 
+.overlap_field{
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    width: 100%;
+    background: #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-title{
+    margin: 0;
+    text-align: center;
+    font: normal 400 25px Courier;
+
+}
+
 .items{
     list-style-type: none;
     padding-left: 0;
+    width: 150px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
 }
 
 .items-item{
@@ -38,6 +86,8 @@ body, ul {
     margin: 0 0 -1px 0;
     cursor: pointer;
     list-style-type: none;
+    width: 100%;
+
 }
 
 .items-item:first-child{
@@ -52,6 +102,7 @@ body, ul {
 
 .items-item.dragged{
     border-radius: 10px;
+    width: 150px;
     position: absolute;
     z-index: 999;
     pointer-events: none;

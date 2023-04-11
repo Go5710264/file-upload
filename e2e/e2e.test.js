@@ -1,4 +1,4 @@
-import puppetteer from 'puppeteer';
+import puppeteer from 'puppeteer';
 import { fork } from 'child_process';
 
 jest.setTimeout(30000); // default puppeteer timeout
@@ -20,7 +20,7 @@ describe('Credit Card Validator form', () => {
       });
     });
 
-    browser = await puppetteer.launch({
+    browser = await puppeteer.launch({
       // headless: false, // show gui
       // slowMo: 250,
       // devtools: true, // show devTools
@@ -35,5 +35,6 @@ describe('Credit Card Validator form', () => {
 
   test('should add do something', async () => {
     await page.goto(baseUrl);
+     
   });
 });

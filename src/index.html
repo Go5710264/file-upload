@@ -7,22 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="file-container">
-        <input type="file" class="overlapped">
-        <span class="overlap">Choose file</span>
-        <!-- span перекрывает input -->
-    </div>
-    <h1 class="preview-title"></h1>
-    <pre class="preview-text"></pre>
-    <div class="preview-html"></div>
-    <img class="preview-image">
 
-    <!-- drag and drop -->
-    <ul class="items">
-        <li class="items-item">First Item</li>
-        <li class="items-item">Second Item</li>
-        <li class="items-item">Third Item</li>
-        <li class="items-item">Fourth Item</li>
-    </ul>
+    <section class="attaching_file">
+        <h1 class="section_title">Прикрепление файла</h1>
+        <p>Допускаются форматы файлов: png, svg, jpg, jpeg, gif, html, css, js, json, txt, md</p>
+        <div class="file_attachment_button file-container">
+            <input type="file" class="overlapped">
+            <span class="overlap_button overlap_text">Choose file</span>
+        </div>
+    </section>
+
+    <section class="attaching_file">
+        <h1 class="section_title">Перетягивание файла</h1>
+        <p>Допускаются форматы изображений: png, svg, jpg, jpeg, gif</p>
+        <div class="field_dragging_file">
+            <input type="file" class="overlapped">
+            <div class="overlap_field">
+                <span class="overlap_text">Drag the image here</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="attaching_file">
+        <h1 class="section_title">Отображение файла</h1>
+        <div>
+            <h1 class="preview-title"></h1>
+            <pre class="preview-text preview"></pre>
+            <div class="preview-html preview"></div>
+            <img class="preview-image preview">
+        </div>
+    </section>
+
+    <section class="attaching_file">
+        <ul class="items">
+            <li class="items-item">First Item</li>
+            <li class="items-item">Second Item</li>
+            <li class="items-item">Third Item</li>
+            <li class="items-item">Fourth Item</li>
+        </ul>
+    </section>
+
+
 </body>
 </html>

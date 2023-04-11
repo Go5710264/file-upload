@@ -1,4 +1,4 @@
-name: projectName
+name: Dak1CI
 
 on: [push, pull_request]
 
