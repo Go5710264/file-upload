@@ -1,3 +1,5 @@
+[![Dak1CI](https://github.com/Go5710264/file-upload/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Go5710264/file-upload/actions/workflows/github-actions-demo.yml)
+
 ### Прикрепление файла
 
 Реализована возможность прикрепления файла и отображения его превью 
