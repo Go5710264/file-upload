@@ -4,7 +4,7 @@ body, ul {
 }
 
 .attaching_file{
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,11 +73,6 @@ body, ul {
     list-style-type: none;
     padding-left: 0;
     width: 150px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-
 }
 
 .items-item{
